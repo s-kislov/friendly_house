@@ -1,0 +1,38 @@
+.container__main {
+  height: 940px;
+  position: relative;
+}
+
+.container__main::before {
+  content: "";
+  position: absolute;
+  width: 1180px;
+  height: 690px;
+  background-image: url("../img/GAME\ OVER\ \(Stroke\).png");
+  background-repeat: repeat-y;
+  transform: translate(4px, 175px)
+}
+
+.container__main::after {
+  content: "";
+  position: absolute;
+  width: 675px;
+  height: 762px;
+  transform: translate(500px, -245px);
+  background-image: url("../img/header-bg-image.png");
+  z-index: 2;
+
+}
+
+.main__title {
+  font-family: "Arial-black";
+  font-size: 11em;
+}
+
+.main__subtitle {
+  font-weight: 400;
+  width: 350px;
+  font-size: 1.5em;
+  transform: translate(200px, -125px);
+}
+

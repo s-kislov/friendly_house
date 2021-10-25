@@ -1,0 +1,70 @@
+.about__title {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about__img {
+  display: inline-block;
+  width: 60%;
+}
+
+.about__img-item {
+  margin: -2px;
+}
+
+.about__block-text {
+  display: inline-block;
+  width: 30%;
+  transform: translateY(-100px);
+}
+
+.about__text {
+  width: 400px;
+  padding-bottom: 40px;
+  font-size: 1.1em;
+  transform: translateY(40px);
+}
+
+.about__quote {
+  position: relative;
+  font-size: 2.3em;
+  width: 330px;
+  text-transform: uppercase;
+  transform: translateY(90px);
+}
+
+.about__quote::before {
+  content: "“";
+  position: absolute;
+  color: #6C0287;
+  transform: translate(-20px, -10px);
+  font-size: 50px;
+}
+
+.about__quote::after {
+  content: "”";
+  position: absolute;
+  color: #6C0287;
+  transform: translate(5px, -3px);
+  font-size: 50px;
+}
+
+.about__arkadiy {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  width: 290px;
+  transform: translate(180px, 100px);
+}
+
+.about__arkadiy::before {
+  content: "";
+  background-image: url("/img/Arkady.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: translateX(-100px);
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}

@@ -1,0 +1,30 @@
+.rooms {
+  margin-top: 40px;
+}
+
+.rooms__title {
+  font-size: 3em;
+  text-align: center;
+}
+
+.rooms__list {
+  list-style-type: none;
+}
+
+.rooms__item {
+  position: relative;
+  margin-top: 60px;
+  margin-left: -40px;
+}
+
+.rooms__name {
+  position: absolute;
+  transform: translate(490px, 280px);
+  width: 211px;
+  height: 160px;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+}
